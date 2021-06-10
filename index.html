@@ -1246,7 +1246,7 @@
         :data="listData"
         :class-option="classOption"
         class="warp"
-        style="height: 180px"
+        style="height: 30px"
       >
         <ul class="index-notice-content__ul">
           
@@ -1255,93 +1255,8 @@
               
                 <div class="index-notice-content__title">
                   
-                    <a href="/archives" title="#博客更新到2.0了" style="color:red">
+                    <a href="/archives" title="#博客更新到2.0了" style="">
                       #博客更新到2.0了
-                    </a>
-                  
-                </div>
-                
-                  <div class="index-notice-content__date" style="color:red">
-                    2021-04-28
-                  </div>
-                
-              
-            </li>
-          
-            <li>
-              
-                <div class="index-notice-content__title">
-                  
-                    <a target="_blank" rel="noopener" href="http://baidu.com" title="#新增 轮播图支持三种模式了，功能也增强了 ~" style="color:red">
-                      #新增 轮播图支持三种模式了，功能也增强了 ~
-                    </a>
-                  
-                </div>
-                
-                  <div class="index-notice-content__date" style="color:red">
-                    2021-04-28
-                  </div>
-                
-              
-            </li>
-          
-            <li>
-              
-                <div class="index-notice-content__title">
-                  
-                    <a target="_blank" rel="noopener" href="http://baidu.com" title="#新增 支持二级导航" style="color:blue">
-                      #新增 支持二级导航
-                    </a>
-                  
-                </div>
-                
-                  <div class="index-notice-content__date" style="color:blue">
-                    2021-04-28
-                  </div>
-                
-              
-            </li>
-          
-            <li>
-              
-                <div class="index-notice-content__title">
-                  
-                    <a target="_blank" rel="noopener" href="http://baidu.com" title="#新增 归档，分类等页面头部图片位置可以设置为视频 ~" style="color:#42b983">
-                      #新增 归档，分类等页面头部图片位置可以设置为视频 ~
-                    </a>
-                  
-                </div>
-                
-                  <div class="index-notice-content__date" style="color:#42b983">
-                    2021-04-28
-                  </div>
-                
-              
-            </li>
-          
-            <li>
-              
-                <div class="index-notice-content__title">
-                  
-                    <a target="_blank" rel="noopener" href="http://baidu.com" title="#新增 头部导航可以设置为在顶部透明，并且可以任意设置背景颜色了 ~" style="">
-                      #新增 头部导航可以设置为在顶部透明，并且可以任意设置背景颜色了 ~
-                    </a>
-                  
-                </div>
-                
-                  <div class="index-notice-content__date" style="">
-                    2021-04-28
-                  </div>
-                
-              
-            </li>
-          
-            <li>
-              
-                <div class="index-notice-content__title">
-                  
-                    <a target="_blank" rel="noopener" href="http://baidu.com" title="#新增 首页增加了座右铭和公告栏目 ~" style="">
-                      #新增 首页增加了座右铭和公告栏目 ~
                     </a>
                   
                 </div>
@@ -1366,7 +1281,7 @@
 <script>
   let seamless = JSON.parse('false');
   seamless = seamless ? 0 : 30;
-  let listData = '[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]';
+  let listData = '[object Object]';
   listData = listData.split(',');
   var vm = new Vue({
     el: '#appIndexNotice',
@@ -1458,6 +1373,10 @@
 
 
 <!-- 雪花和花瓣特效 -->
+
+  
+    <script src="/js/sakura.js"></script>
+  
 
 
 
