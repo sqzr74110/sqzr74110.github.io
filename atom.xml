@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-18T18:13:39.402Z</updated>
+  <updated>2021-07-18T18:24:41.727Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,21 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Ubuntu美化</title>
-    <link href="http://example.com/2021/07/19/ubuntu-mei-hua/"/>
-    <id>http://example.com/2021/07/19/ubuntu-mei-hua/</id>
-    <published>2021-07-18T17:46:23.000Z</published>
-    <updated>2021-07-18T18:13:39.402Z</updated>
+    <title>ubuntu</title>
+    <link href="http://example.com/2021/07/19/ubuntu/"/>
+    <id>http://example.com/2021/07/19/ubuntu/</id>
+    <published>2021-07-18T18:19:32.000Z</published>
+    <updated>2021-07-18T18:24:41.727Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;strong&gt;指令&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;sudo apt-get update&lt;/p&gt;
-&lt;p&gt;sudo apt-get install gnome-tweak-tool&lt;/p&gt;
-&lt;p&gt;sudo apt-get install</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;效果图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img &quot;&quot; class=&quot;lazyload placeholder&quot; data-original=&quot;/ubuntu/xg2.jpg&quot;</summary>
         
       
     
@@ -39,6 +37,8 @@
     
     
     <category term="美化教程" scheme="http://example.com/tags/%E7%BE%8E%E5%8C%96%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="ubuntu" scheme="http://example.com/tags/ubuntu/"/>
     
   </entry>
   

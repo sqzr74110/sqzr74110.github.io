@@ -4,17 +4,19 @@
   
     
     <entry>
-      <title>Ubuntu美化</title>
-      <link href="/2021/07/19/ubuntu-mei-hua/"/>
-      <url>/2021/07/19/ubuntu-mei-hua/</url>
+      <title>ubuntu</title>
+      <link href="/2021/07/19/ubuntu/"/>
+      <url>/2021/07/19/ubuntu/</url>
       
-        <content type="html"><![CDATA[<p><strong>指令</strong></p><p>sudo apt-get update</p><p>sudo apt-get install gnome-tweak-tool</p><p>sudo apt-get install gnome-shell-extensions</p><p>sudo apt install gnome-tweak-tool gnome shell-extensions chrome-gnome-shell</p><p>gnomeshell扩展网站：<a href="https://extensions.gnome.org/">https://extensions.gnome.org</a></p><p><strong>所需要的扩展</strong></p><p>User themes</p><p>Frippery move clock</p><p>Dynamic panel Transparency</p><p>Compiled windows effect</p><p>Panel OSD</p><p>Gnome Global Application Menu(HUD for Gnome)</p><p>Dash to Dock</p><p><strong>将Nautilus Admin添加到Nautilus右键菜单</strong></p><p>要将「以管理员身份打开」选项和「以管理员身份编辑」选项添加到右键菜单中，我们需要事先安装 Nautilus Admin 工具：</p><p>1、使用 Ctrl + Alt + T 快捷键打开「终端」——执行如下命令进行安装：</p><p>sudo apt install nautilus-admin</p><p>2、安装完成后，必须重新启动 Nautilus，请输入以下命令并按 Enter 键：</p><p>nautilus -q</p><p>效果图</p><p><img "" class="lazyload placeholder" data-original="/2021/07/19/Ubuntu-mei-hua/xg-6631263.jpg" src="https://img10.360buyimg.com/ddimg/jfs/t1/157667/29/9156/134350/603c6445Ebbc9cabe/41219c5d36d45072.gif" alt="效果图"></p>]]></content>
+        <content type="html"><![CDATA[<p><strong>效果图</strong></p><p><img "" class="lazyload placeholder" data-original="/ubuntu/xg2.jpg" src="https://img10.360buyimg.com/ddimg/jfs/t1/157667/29/9156/134350/603c6445Ebbc9cabe/41219c5d36d45072.gif" alt="效果图"></p><p><strong>指令</strong></p><p>sudo apt-get update</p><p>sudo apt-get install gnome-tweak-tool</p><p>sudo apt-get install gnome-shell-extensions</p><p>sudo apt install gnome-tweak-tool gnome shell-extensions chrome-gnome-shell</p><p>gnomeshell扩展网站：<a href="https://extensions.gnome.org/">https://extensions.gnome.org</a></p><p><strong>所需要的扩展</strong></p><p>User themes</p><p>Frippery move clock</p><p>Dynamic panel Transparency</p><p>Compiled windows effect</p><p>Panel OSD</p><p>Gnome Global Application Menu(HUD for Gnome)</p><p>Dash to Dock</p><p><strong>将Nautilus Admin添加到Nautilus右键菜单</strong></p><p>要将「以管理员身份打开」选项和「以管理员身份编辑」选项添加到右键菜单中，我们需要事先安装 Nautilus Admin 工具：</p><p>1、使用 Ctrl + Alt + T 快捷键打开「终端」——执行如下命令进行安装：</p><p>sudo apt install nautilus-admin</p><p>2、安装完成后，必须重新启动 Nautilus，请输入以下命令并按 Enter 键：</p><p>nautilus -q</p>]]></content>
       
       
       
         <tags>
             
             <tag> 美化教程 </tag>
+            
+            <tag> ubuntu </tag>
             
         </tags>
       
