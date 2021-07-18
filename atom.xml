@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-10T12:35:51.207Z</updated>
+  <updated>2021-07-18T10:11:17.607Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>招新啦！！！！！</title>
+    <link href="http://example.com/2021/07/18/zhao-xin-la/"/>
+    <id>http://example.com/2021/07/18/zhao-xin-la/</id>
+    <published>2021-07-17T16:00:00.000Z</published>
+    <updated>2021-07-18T10:11:17.607Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;一樽酹休动漫社，成立于2018年4月30日，是由一群热爱动画、漫画、游戏、艺术的在校学生及社会成员自发成立，以组织社员欣赏动漫作品，学习漫画技巧，动漫配音和音乐；旨在凭借ACG这一载体，鼓励社员积极关注生活，寻找同好增进友谊并用图画记录下生活中的思考与感悟，彰显出自己的独特</summary>
+        
+      
+    
+    
+    
+    <category term="一樽酹休动漫社" scheme="http://example.com/categories/%E4%B8%80%E6%A8%BD%E9%85%B9%E4%BC%91%E5%8A%A8%E6%BC%AB%E7%A4%BE/"/>
+    
+    
+    <category term="招新" scheme="http://example.com/tags/%E6%8B%9B%E6%96%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
