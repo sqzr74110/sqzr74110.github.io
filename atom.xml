@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-18T18:25:55.476Z</updated>
+  <updated>2021-07-18T18:29:12.644Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/07/19/ubuntu/"/>
     <id>http://example.com/2021/07/19/ubuntu/</id>
     <published>2021-07-18T18:19:32.000Z</published>
-    <updated>2021-07-18T18:25:55.476Z</updated>
+    <updated>2021-07-18T18:29:12.644Z</updated>
     
     
       
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;p&gt;&lt;strong&gt;效果图&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img &quot;&quot; class=&quot;lazyload placeholder&quot; data-original=&quot;/ubuntu/xg2.jpg&quot;</summary>
+&lt;p&gt;&lt;img &quot;&quot; class=&quot;lazyload placeholder&quot; data-original=&quot;/2021/07/19/ubuntu/xg2.jpg&quot;</summary>
         
       
     
