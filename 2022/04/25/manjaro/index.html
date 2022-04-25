@@ -10,7 +10,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>ubuntu美化 | 欢迎来到小顺子的网站</title>
+  <title>Manjaro+kde简单配置美化教程（纯文本） | 欢迎来到小顺子的网站</title>
 
   
     
@@ -699,7 +699,7 @@
 
 
 
-<div class="post-detail-header lazyload" id="thumbnail_canvas" data-original="/medias/8.jpg" style="background-repeat: no-repeat; background-size: cover; 
+<div class="post-detail-header lazyload" id="thumbnail_canvas" data-original="/medias/14.jpg" style="background-repeat: no-repeat; background-size: cover; 
   background-position: center center;position: relative;">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
@@ -710,7 +710,7 @@
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
           <script>
             var typed = new Typed("#post-detail-header-title", {
-              strings: ['ubuntu美化'],
+              strings: ['Manjaro+kde简单配置美化教程（纯文本）'],
               startDelay: 100,
               typeSpeed: 100,
               loop: false,
@@ -735,7 +735,7 @@
       
       <div class="post-meta">
         <i class="fa fa-clock-o" aria-hidden="true"></i>
-        <span class="post-time">2021-07-19</span>
+        <span class="post-time">2022-04-25</span>
       </div>
       
       <div class="post-tags-categories">
@@ -743,55 +743,107 @@
         <div class="tags">
           <i class="iconfont icontag"></i>
           
-            <a href="/tags/%E7%BE%8E%E5%8C%96%E6%95%99%E7%A8%8B/" class="">
-              美化教程
-            </a>
-          
-            <a href="/tags/%E7%BE%8E%E5%8C%96/" class="">
-              美化
-            </a>
-          
-            <a href="/tags/Ubuntu/" class="">
-              Ubuntu
+            <a href="/tags/manjaro/" class="">
+              manjaro
             </a>
           
         </div>
         
-        
-        <div class="categories">
-          <i class="iconfont iconbookmark1"></i>
-          
-            <a href="/categories/Ubuntu/" class="">
-              Ubuntu
-            </a>
-          
-        </div>
         
       </div>
       <div class="post-content">
-        <p><strong>视频演示链接</strong>：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1c54y1872t?share_source=copy_web">https://www.bilibili.com/video/BV1c54y1872t?share_source=copy_web</a> </p>
-<p><strong>效果图</strong></p>
-<p><img "" class="lazyload placeholder" data-original="/2021/07/19/ubuntu/xg2.jpg" src="https://img10.360buyimg.com/ddimg/jfs/t1/157667/29/9156/134350/603c6445Ebbc9cabe/41219c5d36d45072.gif" alt="效果图"></p>
-<p><strong>指令</strong></p>
-<p>sudo apt-get update</p>
-<p>sudo apt-get install gnome-tweak-tool</p>
-<p>sudo apt-get install gnome-shell-extensions</p>
-<p>sudo apt install gnome-tweak-tool gnome shell-extensions chrome-gnome-shell</p>
-<p>gnomeshell扩展网站：<a target="_blank" rel="noopener" href="https://extensions.gnome.org/">https://extensions.gnome.org</a></p>
-<p><strong>所需要的扩展</strong></p>
-<p>User themes</p>
-<p>Frippery move clock</p>
-<p>Dynamic panel Transparency</p>
-<p>Compiled windows effect</p>
-<p>Panel OSD</p>
-<p>Gnome Global Application Menu(HUD for Gnome)</p>
-<p>Dash to Dock</p>
-<p><strong>将Nautilus Admin添加到Nautilus右键菜单</strong></p>
-<p>要将「以管理员身份打开」选项和「以管理员身份编辑」选项添加到右键菜单中，我们需要事先安装 Nautilus Admin 工具：</p>
-<p>1、使用 Ctrl + Alt + T 快捷键打开「终端」——执行如下命令进行安装：</p>
-<p>sudo apt install nautilus-admin</p>
-<p>2、安装完成后，必须重新启动 Nautilus，请输入以下命令并按 Enter 键：</p>
-<p>nautilus -q</p>
+        <p>哈咯大家好我是顺其自然，enmmm你们也可以叫我小顺子，由于我的ubuntu崩了，然后gnome桌面的美化教程可能会晚点和大家见面（好吧单纯是我懒），斟酌了许久还是选择了archliunx，然后我发现一个很严肃的问题，我他喵的不会装，然后选择了manjaro+kde，现在我来教大家如何美化你的manjaro+kde。</p>
+<p>为什么选择Manjaro<br>DistroWatch全球排名第一的发行版</p>
+<p>基于Arch Linux，继承其先进的pacman包管理系统，丰富的软件仓库和良好的社区支持,中国源中有大量的中国常用软件</p>
+<p>与Arch不同源，一定程度上规避了滚挂的风险  </p>
+<p>效果视频传送门：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nv411j7Mk?share_source=copy_web">https://www.bilibili.com/video/BV1nv411j7Mk?share_source=copy_web</a> </p>
+<p><strong>manjaro+kde的简单配置</strong><br>1更换国内源</p>
+<p>sudo pacman-mirrors -i -c China -m rank</p>
+<p>这时候会弹出来一个窗口，选择最快的那个就行</p>
+<p> sudo pacman -Syy</p>
+<p>2添加AUR的源</p>
+<p>Manjaro是基于Arch的，也能使用Arch丰富完善的源AUR，打开终端输入</p>
+<p>sudo kate /etc/pacman.conf</p>
+<p>输入密码后，打开pacman.conf配置文件，在末尾添加如下内容</p>
+<p>[archlinuxcn]</p>
+<p>SigLevel = Optional TrustedOnly</p>
+<p>Server = <a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch">https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch</a></p>
+<p>保存后更新</p>
+<p>sudo pacman -Syyu</p>
+<p>然后安装archlinuxcn-keyring包导入GPG key</p>
+<p>sudo pacman -S archlinuxcn-keyring</p>
+<p>安装AUR包管理工具yay</p>
+<p>sudo pacman -S yay</p>
+<p>安装神器vim</p>
+<p>sudo pacman -S vim</p>
+<p>git</p>
+<p>sudo pacman -S git</p>
+<p>有了yay，就可以替代sudo pacman操作了，而且yay可以模糊搜索，搜索到的可能有多项，可以选择。</p>
+<p>安装输入法<br>安装fcitx5软件包</p>
+<p>sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons</p>
+<p>fcitx5-material-color</p>
+<p>-fcitx5: 输入法基础框架主程序</p>
+<p>-fcitx5-configtool(kcm-fcitx5)：输入法配置程序(KDE桌面环境的支持)</p>
+<p>-fcitx5-qt: QT5程序的支持 </p>
+<p>-fcitx5-gtk: GTK程序的支持 </p>
+<p>-fcitx5-chinese-addons: 简体中文输入的支持，云拼音</p>
+<p>-fcitx5-material-color：一款使用 Material Design 配色的 fcitx5 皮肤，旨在模仿 Windows 10 自带输入法的 UI</p>
+<p>修改环境变量</p>
+<p>修改输入法环境变量，使应用可以调用Fcitx5输入法</p>
+<p>将下面的内容粘贴到<code>~/.pam_environment</code></p>
+<p>GTK_IM_MODULE DEFAULT=fcitx<br>QT_IM_MODULE  DEFAULT=fcitx<br>XMODIFIERS    DEFAULT=@im=fcitx</p>
+<p>系统登陆后默认启动fcitx5输入法</p>
+<p>将下面的内容粘贴到 <code>~/.xprofile</code>(每次使用gdm等图形登录时读取并运用里面的设定</p>
+<p>fcitx5 &amp;</p>
+<p>注销当前登陆用户再重新登入，然后点击Input Method的托盘图表进行输入法设定，就可以正常切换和使用输入法了。</p>
+<p>配置主题</p>
+<p>使用<code>fcitx5-material-color</code>这个主题,可以参照: <a target="_blank" rel="noopener" href="https://github.com/hosxy/Fcitx5-Material-Color">https://github.com/hosxy/Fcitx5-Material-Color</a></p>
+<p>修改 ~/.config/fcitx5/conf/classicui.conf</p>
+<h1 id="垂直候选列表"><a href="#垂直候选列表" class="headerlink" title="垂直候选列表"></a>垂直候选列表</h1><p>Vertical Candidate List=False</p>
+<h1 id="按屏幕-DPI-使用"><a href="#按屏幕-DPI-使用" class="headerlink" title="按屏幕 DPI 使用"></a>按屏幕 DPI 使用</h1><p>PerScreenDPI=True</p>
+<h1 id="Font-设置成你喜欢的字体"><a href="#Font-设置成你喜欢的字体" class="headerlink" title="Font (设置成你喜欢的字体)"></a>Font (设置成你喜欢的字体)</h1><p>Font=”思源黑体 CN Medium 13”</p>
+<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><p>Theme=Material-Color-DeepPurple</p>
+<p>安装常用软件<br>安装chrome浏览器</p>
+<p>sudo pacman -S google-chrome</p>
+<p>安装wps</p>
+<p>sudo pacman -S wps-office</p>
+<p>sudo pacman -S wps-office-mui-zh-cn #安装中文</p>
+<p>sudo pacman -S ttf-wps-fonts # 安装依赖字体</p>
+<p>安装vscode</p>
+<p>sudo pacman -S visual-studio-code-bin</p>
+<p>安装typora</p>
+<p>sudo pacman -S typora</p>
+<p>安装网易云音乐</p>
+<p>sudo pacman -S netease-cloud-music</p>
+<p>微信</p>
+<p>yaourt -S deepin-wechat</p>
+<p>TIM/QQ</p>
+<p>qq</p>
+<p>yaourt -S deepin-qq-im</p>
+<p>tim</p>
+<p>yaourt -S deepin.qq.office</p>
+<p>百度网盘liunx</p>
+<p>sudo pacman -S baidunetdisk-bin  </p>
+<p>美化<br>全局主题、图标，窗口样式，鼠标光标等可以在系统设置/外观/获取新的里面找到 </p>
+<p>全局主题layan </p>
+<p>顶部菜单栏</p>
+<p>用到的plasma部件（都可以在部件商店下载，后面括号中是中文名称）</p>
+<p>Application title</p>
+<p>Better inline clock</p>
+<p>Kpple Menu（kpple菜单）</p>
+<p>Mediacontroller_plus（媒体播放器）</p>
+<p>Ditto menu</p>
+<p>1桌面右键添加空面板，然后移动到屏幕上方,然后按以下方式排序（下面的是我在视频中的效果）</p>
+<p>kpple菜单/Application title/全局菜单/添加间距/媒体播放器/网络/输入法面板/磁盘和设备/音频音量/Better inline clock/Ditto menu/通知/显示桌面</p>
+<p>dock</p>
+<p>我这里使用的是lattedock</p>
+<p>1安装lattedock</p>
+<p>sudo pacman –S latte-dock</p>
+<p>2启动lattedock，然后右键dock选择布局/配置</p>
+<p>3点击下载新布局下载自己喜欢的布局然后返回</p>
+<p>4选择下载好的布局，点击切换（视频中我把两侧和顶部的停靠栏删除了，如果你们可以根据自己喜好调整）</p>
+<p>至此我们的美化差不多完成了，kde的扩展系什么的特别强大，美化方案也比较多，我这边只是给大家一个参考，希望大家喜欢，如果有什么问题或者有什么需要补充，欢迎在评论区留言。</p>
+<p>如果喜欢这篇文章可以给我一个三连嘛 嘿嘿嘿<br> 作者：生活不易顺顺叹气 <a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv11183026?spm_id_from=333.999.0.0">https://www.bilibili.com/read/cv11183026?spm_id_from=333.999.0.0</a> 出处：bilibili</p>
 
       </div>
       
@@ -802,7 +854,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2021/07/19/ubuntu/" target="_blank" title="ubuntu美化">http://example.com/2021/07/19/ubuntu/</a>
+    <a href="/2022/04/25/manjaro/" target="_blank" title="Manjaro+kde简单配置美化教程（纯文本）">http://example.com/2022/04/25/manjaro/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -820,38 +872,20 @@
 
 
 
-  
-  <div class="post-nav-prev post-nav-item">
-    <div class="post-nav-img lazyload" data-original="/medias/14.jpg" style="background-size: cover; 
-      background-position: center center;">
-    </div>
-    <a href="/2022/04/25/manjaro/" class="post-nav-link">
-      <div class="title">
-        <i class="fa fa-angle-left"></i> 上一篇:
-        <div>Manjaro+kde简单配置美化教程（纯文本）</div>
-      </div>
-      
-      <!-- <div class="content">
-        哈咯大家好我是顺其自然，enmmm你们也可以叫我小顺子，由于我的ubuntu崩了，然后gnome桌面的美化教程可能会晚点
-      </div> -->
-    </a>
-  </div>
-
 
 
   
   <div class="post-nav-next post-nav-item">
-    <div class="post-nav-img lazyload" data-original="/2021/07/18/she-tuan-zhao-xin/IMG_0151.jpg" style="background-size: cover; 
+    <div class="post-nav-img lazyload" data-original="/medias/8.jpg" style="background-size: cover; 
       background-position: center center;">
     </div>
-    <a href="/2021/07/18/she-tuan-zhao-xin/" class="post-nav-link">
+    <a href="/2021/07/19/ubuntu/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fa fa-angle-right"></i>
-        <div>社团招新</div>
+        <div>ubuntu美化</div>
       </div>
       <!-- <div class="content">
-        
-
+        视频演示链接：https://www.bilibili.com/video/BV1c54y1872t?share_sou
       </div> -->
     </a>
   </div>

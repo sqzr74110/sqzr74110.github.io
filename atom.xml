@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-18T18:44:27.862Z</updated>
+  <updated>2022-04-25T07:00:00.377Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Manjaro+kde简单配置美化教程（纯文本）</title>
+    <link href="http://example.com/2022/04/25/manjaro/"/>
+    <id>http://example.com/2022/04/25/manjaro/</id>
+    <published>2022-04-25T06:28:08.000Z</published>
+    <updated>2022-04-25T07:00:00.377Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;哈咯大家好我是顺其自然，enmmm你们也可以叫我小顺子，由于我的ubuntu崩了，然后gnome桌面的美化教程可能会晚点和大家见面（好吧单纯是我懒），斟酌了许久还是选择了archliunx，然后我发现一个很严肃的问题，我他喵的不会装，然后选择了manjaro+kde，现在我</summary>
+        
+      
+    
+    
+    
+    
+    <category term="manjaro" scheme="http://example.com/tags/manjaro/"/>
+    
+  </entry>
   
   <entry>
     <title>ubuntu美化</title>
