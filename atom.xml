@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-25T07:00:00.377Z</updated>
+  <updated>2022-06-10T11:47:45.232Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VR Chat地图更新公告（VR chat map update announcement）</title>
+    <link href="http://example.com/2022/06/10/vr-chat/"/>
+    <id>http://example.com/2022/06/10/vr-chat/</id>
+    <published>2022-06-10T11:22:01.000Z</published>
+    <updated>2022-06-10T11:47:45.232Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​       &lt;strong&gt;哈咯大家好我是顺子，这是我第一次做的一个VRchat世界，我在后续会不断去优化更新这个世界，希望大家喜欢。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hello, everyone. I am shunzi. This is my</summary>
+        
+      
+    
+    
+    
+    
+    <category term="游戏" scheme="http://example.com/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Manjaro+kde简单配置美化教程（纯文本）</title>
