@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-10T11:47:45.232Z</updated>
+  <updated>2022-07-19T08:32:34.541Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VR Chat更新公告</title>
+    <link href="http://example.com/2022/07/19/vrchat-1/"/>
+    <id>http://example.com/2022/07/19/vrchat-1/</id>
+    <published>2022-07-19T08:27:16.000Z</published>
+    <updated>2022-07-19T08:32:34.541Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;VRchat更新公告（2022.7.19）&lt;br&gt;1升级了视频播放器并加入播放列表功能&lt;br&gt;（资源会在后期不断更新）&lt;br&gt;2更新了雨滴效果&lt;br&gt;（因为出现兼容性问题暂时以材质球的形式存在于地图中）….我真的有在努力修复了，但是能力不够，等后面优化好会应用到地图中。&lt;b</summary>
+        
+      
+    
+    
+    
+    
+    <category term="VRChat" scheme="http://example.com/tags/VRChat/"/>
+    
+  </entry>
   
   <entry>
     <title>VR Chat地图更新公告（VR chat map update announcement）</title>
