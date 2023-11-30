@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>欢迎来到小顺子的网站</title>
+  <title>欢迎来到顺顺的网站</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://example.com/</id>
   
   <author>
-    <name>离散聚合顺其自然</name>
+    <name>生活不易顺顺叹气</name>
     
   </author>
   
